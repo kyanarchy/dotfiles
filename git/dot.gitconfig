@@ -1,0 +1,56 @@
+# Global gitconfig
+#
+# https://git-scm.com/docs/git-config
+#
+
+[blame]
+    date = short
+    showEmail = true
+
+[color]
+    branch      = auto
+    diff        = auto
+    grep        = auto
+    interactive = auto
+    status      = auto
+    ui          = auto
+    pager       = true
+
+[commit]
+    gpgsign = true
+# template = ; need pathname for commit template
+    verbose = true
+
+[core]
+    autocrlf = input
+    trustctime = false
+    whitespace = fix,trailing-space,space-before-tab,-indent-with-non-tab
+
+[diff]
+    renames = true
+
+[fetch]
+    prune = true
+
+[help]
+    autocorrect = 1
+
+[init]
+    defaultBranch = main
+
+[status]
+    branch = true
+
+
+# Aliases
+[include]
+    path = "~/.dotfiles/git/aliases.gitconfig"
+
+
+# Profile
+[user]
+    name = ky rose
+    email = kyannerose@proton.me
+
+[github]
+    user = kyanarchy
