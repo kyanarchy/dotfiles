@@ -1,0 +1,9 @@
+# Initialization procedures
+# Commands to set-up and configure my machines
+
+
+# Set default directories
+xdg-user-dirs-update --set DOWNLOAD $HOME/tmp
+
+# Set up Keybase.io, GPG & Git to sign commits on GitHub
+Use this guide to write my own steps: https://github.com/pstadler/keybase-gpg-github
